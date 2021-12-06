@@ -1,0 +1,39 @@
+header{
+    background-color: yellow;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+li > h2{
+    margin-bottom: 5px;
+}
+
+section{
+    margin: 5px;
+    padding: 5px;
+    border-left:4px solid green;    
+}
+
+aside > ul{
+    border: 3px dashed green;
+    padding: 5px 10px 30px 5px;
+}
+
+aside > ul > li> h2{
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+    
+}
+
